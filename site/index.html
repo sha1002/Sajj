@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="None">
+        
+        
+        <link rel="shortcut icon" href="img/favicon.ico">
+        <title>SAJJ Documentation</title>
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/fontawesome.min.css" rel="stylesheet">
+        <link href="css/brands.min.css" rel="stylesheet">
+        <link href="css/solid.min.css" rel="stylesheet">
+        <link href="css/v4-font-face.min.css" rel="stylesheet">
+        <link href="css/base.css" rel="stylesheet">
+        <link id="hljs-light" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/mono-blue.min.css" >
+        <link id="hljs-dark" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github-dark.min.css" disabled>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script> 
+    </head>
+
+    <body class="homepage">
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href=".">SAJJ Documentation</a>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+
+                    <ul class="nav navbar-nav ms-md-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-bs-toggle="collapse" data-bs-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-body-tertiary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-bs-level="1"><a href="#sajj-documentation" class="nav-link">SAJJ Documentation</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-bs-level="2"><a href="#product-vision" class="nav-link">Product Vision</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#problem-statement" class="nav-link">Problem Statement</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#core-product-pillars" class="nav-link">Core Product Pillars</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#documentation-structure" class="nav-link">Documentation Structure</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#high-level-architecture" class="nav-link">High-Level Architecture</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#application-modules" class="nav-link">Application Modules</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#development-philosophy" class="nav-link">Development Philosophy</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#mvp-scope" class="nav-link">MVP Scope</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#document-version" class="nav-link">Document Version</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="sajj-documentation">SAJJ Documentation</h1>
+<p>Welcome to the official documentation for <strong>SAJJ</strong>, an AI-powered personal fashion companion designed to help users make smarter styling decisions using artificial intelligence, personalized recommendations, and wardrobe intelligence.</p>
+<p>Unlike traditional fashion applications that prioritize shopping, SAJJ focuses on helping users maximize the value of the clothes they already own. By combining a digital wardrobe, AI-powered outfit generation, personalized style profiling, and intelligent shopping recommendations, SAJJ aims to become every user's personal stylist.</p>
+<hr />
+<h2 id="product-vision">Product Vision</h2>
+<p>To empower users to dress confidently by providing intelligent, personalized fashion recommendations based on their wardrobe, preferences, body type, lifestyle, and occasion.</p>
+<hr />
+<h2 id="problem-statement">Problem Statement</h2>
+<p>Modern fashion platforms primarily focus on selling clothing rather than helping users style what they already own. As a result, users often struggle with outfit planning, repeatedly purchase similar clothing, and fail to maximize their existing wardrobe.</p>
+<p>SAJJ addresses these challenges by creating an AI-powered ecosystem that helps users organize their wardrobe, generate personalized outfits, discover new styles, and make informed purchasing decisions only when necessary.</p>
+<hr />
+<h2 id="core-product-pillars">Core Product Pillars</h2>
+<p>SAJJ is built around three core pillars:</p>
+<h3 id="personalization">👤 Personalization</h3>
+<p>Understand the user through onboarding, style profiling, body type, preferences, budget, and lifestyle.</p>
+<h3 id="digital-wardrobe">👕 Digital Wardrobe</h3>
+<p>Build a structured inventory of the user's clothing using AI-powered image recognition and wardrobe analytics.</p>
+<h3 id="ai-styling">✨ AI Styling</h3>
+<p>Generate personalized outfit recommendations using wardrobe data, user preferences, weather, occasion, and fashion intelligence.</p>
+<hr />
+<h2 id="documentation-structure">Documentation Structure</h2>
+<p>This documentation is organized into the following sections:</p>
+<ul>
+<li>Product Overview</li>
+<li>Problem Statement &amp; Vision</li>
+<li>User Personas</li>
+<li>User Journey</li>
+<li>Functional Requirements</li>
+<li>System Architecture</li>
+<li>Module Documentation</li>
+<li>AI Recommendation Engine</li>
+<li>Database Design</li>
+<li>API Documentation</li>
+<li>Development Roadmap</li>
+<li>Future Scope</li>
+</ul>
+<hr />
+<h2 id="high-level-architecture">High-Level Architecture</h2>
+<pre><code>                    User
+                      │
+          ┌───────────┴───────────┐
+          │                       │
+     User Profile            Digital Wardrobe
+          │                       │
+          └───────────┬───────────┘
+                      │
+            AI Recommendation Engine
+                      │
+      ┌───────────────┼────────────────┐
+      │               │                │
+ Outfit Engine   Shopping Engine   Discover Engine
+                      │
+                 Application UI
+</code></pre>
+<hr />
+<h2 id="application-modules">Application Modules</h2>
+<p>The application is organized into the following functional modules:</p>
+<ul>
+<li>Authentication</li>
+<li>Onboarding</li>
+<li>Dashboard</li>
+<li>Wardrobe</li>
+<li>AI Stylist</li>
+<li>Outfit Engine</li>
+<li>Discover</li>
+<li>Profile</li>
+<li>Settings</li>
+</ul>
+<p>Future modules include:</p>
+<ul>
+<li>Shopping</li>
+<li>Community</li>
+<li>Virtual Try-On</li>
+<li>Marketplace</li>
+</ul>
+<hr />
+<h2 id="development-philosophy">Development Philosophy</h2>
+<p>Rather than building isolated features, SAJJ is designed around modular architecture.</p>
+<p>Every feature is powered by three foundational systems:</p>
+<ul>
+<li>User Profile</li>
+<li>Digital Wardrobe</li>
+<li>AI Recommendation Engine</li>
+</ul>
+<p>This architecture ensures scalability while allowing future capabilities such as virtual try-on, influencer recommendations, community features, shopping integration, and advanced AI styling to be added without restructuring the application.</p>
+<hr />
+<h2 id="mvp-scope">MVP Scope</h2>
+<p>Version 1 focuses on delivering the core styling experience:</p>
+<ul>
+<li>User Authentication</li>
+<li>Style Onboarding</li>
+<li>Digital Wardrobe</li>
+<li>Dashboard</li>
+<li>AI Outfit Generation</li>
+<li>Weather &amp; Occasion Styling</li>
+<li>Outfit History</li>
+<li>Profile &amp; Preferences</li>
+</ul>
+<p>Advanced capabilities such as Virtual Try-On, Community, Marketplace, and AI Body Measurement are planned for future releases.</p>
+<hr />
+<h2 id="document-version">Document Version</h2>
+<p><strong>Project:</strong> SAJJ</p>
+<p><strong>Version:</strong> 1.0 (Ideation)</p>
+<p><strong>Status:</strong> Product Planning &amp; Architecture Design</p></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script>
+            var base_url = ".",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="js/base.js"></script>
+        <script src="search/main.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
+
+<!--
+MkDocs version : 1.6.1
+Build Date UTC : 2026-06-29 17:45:01.931088+00:00
+-->

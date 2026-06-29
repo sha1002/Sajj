@@ -1,0 +1,17 @@
+site_name: SAJJ Documentation
+
+theme:
+  name: pulse
+
+nav:
+  - Home: index.md
+  - Vision: vision.md
+  - Problem Statement: problem-statement.md
+  # - User Personas: user-personas.md
+  - User Flow: user-flow.md
+  - Architecture: architecture.md
+  # - AI Recommendation Engine: ai-engine.md
+  # - Database: database.md
+  # - API: api.md
+  - Roadmap: roadmap.md
+  - Tech Stack: tech-stack.md
