@@ -6,20 +6,6 @@ Unlike traditional fashion applications that prioritize shopping, SAJJ focuses o
 
 ---
 
-## Product Vision
-
-To empower users to dress confidently by providing intelligent, personalized fashion recommendations based on their wardrobe, preferences, body type, lifestyle, and occasion.
-
----
-
-## Problem Statement
-
-Modern fashion platforms primarily focus on selling clothing rather than helping users style what they already own. As a result, users often struggle with outfit planning, repeatedly purchase similar clothing, and fail to maximize their existing wardrobe.
-
-SAJJ addresses these challenges by creating an AI-powered ecosystem that helps users organize their wardrobe, generate personalized outfits, discover new styles, and make informed purchasing decisions only when necessary.
-
----
-
 ## Core Product Pillars
 
 SAJJ is built around three core pillars:
@@ -51,28 +37,6 @@ This documentation is organized into the following sections:
 - API Documentation
 - Development Roadmap
 - Future Scope
-
----
-
-## High-Level Architecture
-
-```
-                    User
-                      │
-          ┌───────────┴───────────┐
-          │                       │
-     User Profile            Digital Wardrobe
-          │                       │
-          └───────────┬───────────┘
-                      │
-            AI Recommendation Engine
-                      │
-      ┌───────────────┼────────────────┐
-      │               │                │
- Outfit Engine   Shopping Engine   Discover Engine
-                      │
-                 Application UI
-```
 
 ---
 
